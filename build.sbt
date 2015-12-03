@@ -1,6 +1,5 @@
-name := "DDD-Sample"
+name := "ddd-sample"
 
 version := "1.0"
 
 scalaVersion := "2.11.7"
-    
