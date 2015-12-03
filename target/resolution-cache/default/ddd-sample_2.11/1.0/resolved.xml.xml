@@ -4,10 +4,10 @@
 		module="ddd-sample_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151203111944"
+		publication="20151203114804"
 	>
 		<description>
-		DDD-Sample
+		ddd-sample
 		</description>
 	</info>
 	<configurations>

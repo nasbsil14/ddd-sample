@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DDD-Sample.iml" filepath="$PROJECT_DIR$/.idea/modules/DDD-Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ddd-sample-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ddd-sample-build.iml" />
     </modules>
   </component>
 </project>
