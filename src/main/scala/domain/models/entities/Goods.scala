@@ -1,3 +1,5 @@
+import common.model.Aggregate
+
 case class Goods(
                   name: String,
                   goods_code: String,
@@ -5,4 +7,4 @@ case class Goods(
                   size: String,
                   color: String,
                   sale_start_date: String,
-                  info: String)
+                  info: String) extends Aggregate {}

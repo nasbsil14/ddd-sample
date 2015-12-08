@@ -1,2 +1,2 @@
-packcage common.model
+package common.model
 abstract class Entity() {}
