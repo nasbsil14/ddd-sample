@@ -1,8 +1,8 @@
 package goods.domain.repositories
-import goods.domain.model.{Goods, GoodsCode}
+import goods.domain.model.{Goods, GoodsId}
 
-class GoodsRepository() {
-    def findById(goods_code: GoodsCode): Goods
+class GoodsRepository() extends Repository[GoodsId, Goods] {
+    def findById(goods_id: GoodsId): Goods
     def register(goods: Goods): Unit
     def edit(goods: Goods): Unit
     def delete(goods: Goods): Unit
