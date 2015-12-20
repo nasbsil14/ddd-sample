@@ -1,7 +1,7 @@
-package ecsystem.goods.domain.models.entities
+package ec.goods.domain.models.entities
 
 import common.model.Aggregate
-import ecsystem.goods.domain.models.valueObjects.{GoodsName, GoodsType, GoodsId, GoodsMaker}
+import ec.goods.domain.models.valueObjects.{GoodsName, GoodsType, GoodsId, GoodsMaker}
 
 case class Goods(
                   goods_id: GoodsId,

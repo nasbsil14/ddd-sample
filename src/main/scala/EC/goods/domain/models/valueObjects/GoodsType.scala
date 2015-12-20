@@ -1,4 +1,4 @@
-package ecsystem.goods.domain.models.valueObjects
+package ec.goods.domain.models.valueObjects
 
 import common.model.ValueObject
 
