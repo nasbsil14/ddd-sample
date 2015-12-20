@@ -1,5 +1,5 @@
 package ec.goods.domain.models.valueObjects
 
-import common.model.ValueObject
+import common.model.Identity
 
-case class GoodsId(value: String) extends ValueObject {}
+case class GoodsId(value: String) extends Identity {}

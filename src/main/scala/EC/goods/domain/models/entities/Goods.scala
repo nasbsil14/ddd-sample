@@ -9,7 +9,6 @@ case class Goods(
                   goods_type: GoodsType,
                   maker: GoodsMaker,
                   goods_detail: GoodsDetail,
+                  goods_price: GoodsPrice,
                   sale_start_date: String
-                ) extends Aggregate {
-
-}
+                ) extends Aggregate {}
