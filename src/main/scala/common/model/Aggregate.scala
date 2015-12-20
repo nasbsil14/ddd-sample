@@ -1,2 +1,2 @@
 package common.model
-abstract class Aggregate() extends Entity {}
+trait Aggregate[_] extends Entity[_] {}

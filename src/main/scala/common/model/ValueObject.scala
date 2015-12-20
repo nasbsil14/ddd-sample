@@ -1,2 +1,2 @@
 package common.model
-abstract class ValueObject() {}
+trait ValueObject {}
