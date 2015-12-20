@@ -1,8 +1,8 @@
-package ec.goods.domain.repositories
+package ecsystem.goods.domain.repositories
 
 import common.repository.Repository
-import ec.goods.domain.models.entities.Goods
-import ec.goods.domain.models.valueObjects.GoodsId
+import ecsystem.goods.domain.models.entities.Goods
+import ecsystem.goods.domain.models.valueObjects.GoodsId
 
 class GoodsRepository() extends Repository[GoodsId, Goods] {
     def nextIdentity(): GoodsId = ???

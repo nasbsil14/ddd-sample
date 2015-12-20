@@ -1,7 +1,7 @@
-package ec.goods.domain.models.entities
+package ecsystem.goods.domain.models.entities
 
 import common.model.Entity
-import ec.goods.domain.models.valueObjects.{GoodsSize, GoodsColor}
+import ecsystem.goods.domain.models.valueObjects.{GoodsSize, GoodsColor}
 
 case class GoodsDetail (
                          size: GoodsSize,

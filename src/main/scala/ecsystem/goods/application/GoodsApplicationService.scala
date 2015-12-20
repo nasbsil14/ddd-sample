@@ -1,6 +1,6 @@
-package ec.goods.application
-import ec.goods.domain.models.entities.Goods
-import ec.goods.domain.models.valueObjects.GoodsId
+package ecsystem.goods.application
+import ecsystem.goods.domain.models.entities.Goods
+import ecsystem.goods.domain.models.valueObjects.GoodsId
 
 object GoodsApplicationService {
     def getList(): List[Goods] = ???

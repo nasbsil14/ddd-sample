@@ -1,2 +1,2 @@
-package ec.goods.application
+package ecsystem.goods.application
 case class DeleteGoodsCommand () {}

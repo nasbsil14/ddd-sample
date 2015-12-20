@@ -1,4 +1,4 @@
-package ec.goods.domain.models.valueObjects
+package ecsystem.goods.domain.models.valueObjects
 
 import common.model.defaultTypes.Name
 
