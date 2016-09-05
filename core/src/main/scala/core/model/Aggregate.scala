@@ -1,3 +1,3 @@
 package core.model
 
-trait Aggregate[_] extends Entity[_] {}
+trait Aggregate[T] extends Entity[T] {}
