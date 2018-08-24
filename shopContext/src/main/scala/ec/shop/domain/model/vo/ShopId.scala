@@ -1,4 +1,4 @@
-package ec.shop.domain.models.valueObjects
+package ec.shop.domain.model.vo
 
 import core.model.Identity
 

@@ -1,7 +1,7 @@
-package ec.order.domain.models.entities
+package ec.order.domain.model.entity
 
 import common.model.Aggregate
-import ec.order.domain.models.valueObjects.OrderId
+import ec.order.domain.model.vo.OrderId
 
 case class Order(
                 order_id: OrderId,

@@ -1,4 +1,4 @@
-package core.model.defaultTypes
+package core.model.defaultType
 
 abstract class Name(value: String) {
 

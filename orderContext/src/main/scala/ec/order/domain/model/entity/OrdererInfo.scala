@@ -1,4 +1,4 @@
-package ec.order.domain.models.entities
+package ec.order.domain.model.entity
 
 import common.model.Entity
 

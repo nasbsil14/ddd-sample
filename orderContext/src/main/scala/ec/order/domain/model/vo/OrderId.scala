@@ -1,4 +1,4 @@
-package ec.order.domain.models.valueObjects
+package ec.order.domain.model.vo
 
 import common.model.Identity
 
