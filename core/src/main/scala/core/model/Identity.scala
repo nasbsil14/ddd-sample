@@ -1,4 +1,4 @@
 package core.model
 
-//trait Identity[_] {}
+// 一意の識別子
 trait Identity {}

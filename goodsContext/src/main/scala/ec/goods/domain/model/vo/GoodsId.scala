@@ -1,5 +1,7 @@
 package ec.goods.domain.model.vo
 
-class GoodsId {
+import core.model.Identity
+
+class GoodsId extends Identity {
 
 }

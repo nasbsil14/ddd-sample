@@ -1,6 +1,6 @@
 package ec.order.domain.model.entity
 
-import common.model.Aggregate
+import core.model.Entity
 import ec.order.domain.model.vo.OrderId
 
 case class Order(
@@ -9,5 +9,5 @@ case class Order(
                 ship_info: ShipInfo,
                 order_detail: OrderDetail,
                 order_date: String
-                ) extends Aggregate {
+                ) extends Entity {
 }
