@@ -1,6 +1,23 @@
 package ec.goods.domain.model.entity
 
-import ec.goods.domain.model.vo.GoodsId
+import java.time.LocalDateTime
 
-case class Category(list: List[GoodsId]) {
+import core.model.Entity
+import core.model.Event.{ChangedEvent, RegisteredEvent, RemovedEvent}
+import core.model.defaultType.{Name, Status}
+import ec.goods.domain.model.vo.CategoryId
+
+case class Category(
+                     id: Option[CategoryId],
+                     name: Option[Name],
+                     parent: Option[Category],
+                     status: Status,
+                     registered_date: LocalDateTime,
+                     changed_date: LocalDateTime
+                   ) extends Entity {
+  override def registered: RegisteredEvent = ???
+
+  override def changed: ChangedEvent = ???
+
+  override def removed: RemovedEvent = ???
 }

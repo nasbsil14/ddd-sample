@@ -7,16 +7,16 @@ import core.model.Event.{ChangedEvent, RegisteredEvent, RemovedEvent}
 import core.model.defaultType.{Name, Status}
 import ec.goods.domain.model.vo.GoodsId
 
-case class Goods (
-                 id: Option[GoodsId],
-                 category: Option[Category],
+case class Price(
+                 goodsId: GoodsId,
                  name: Option[Name],
-                 text: Option[String],
+                 price: Option[Price],
+                 from_date: Option[LocalDateTime],
+                 to_date: Option[LocalDateTime],
                  status: Status,
-                 release_date: Option[LocalDateTime],
                  registered_date: LocalDateTime,
                  changed_date: LocalDateTime
-                 ) extends Entity{
+                 ) extends Entity {
   override def registered: RegisteredEvent = ???
 
   override def changed: ChangedEvent = ???
