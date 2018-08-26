@@ -1,13 +1,10 @@
-package ec.shop.domain.model.entity
+package ec.order.domain.model
 
 import core.model.Aggregate
 import core.model.Event.{ChangedEvent, RegisteredEvent, RemovedEvent}
-import ec.shop.domain.model.vo.{ShopId, ShopName}
+import ec.order.domain.model.vo.OrderId
 
-case class Shop(
-                shop_id: ShopId,
-                shop_name: ShopName
-                ) extends Aggregate[ShopId] {
+class OrderAggregate extends Aggregate[OrderId] {
   override def registered: RegisteredEvent = ???
 
   override def changed: ChangedEvent = ???
